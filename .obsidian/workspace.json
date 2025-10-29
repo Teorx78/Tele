@@ -4,28 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "ffa4809cd8c41bb8",
+        "id": "37e38b6f8b72df3d",
         "type": "tabs",
+        "dimension": 42.98601714027966,
         "children": [
           {
-            "id": "cf039aebd47c2e31",
+            "id": "f3fd2c081bfb1ce5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lezioni/Welcome.md",
+                "file": "Lezioni/Ripasso Probabilità.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
-            }
+              "title": "Ripasso Probabilità"
+            },
+            "group": "081f13efdb9c65c7"
+          }
+        ]
+      },
+      {
+        "id": "31b2bde91334caff",
+        "type": "tabs",
+        "dimension": 30.807397383852052,
+        "children": [
+          {
+            "id": "8f8a74b6abe0b9a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lezioni/Ripasso Probabilità.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ripasso Probabilità"
+            },
+            "group": "081f13efdb9c65c7"
           }
         ]
       },
       {
         "id": "1b943bae3c91eb4f",
         "type": "tabs",
+        "dimension": 26.206585475868287,
         "children": [
           {
             "id": "9eab99df11806b36",
@@ -166,30 +191,41 @@
               "icon": "lucide-list",
               "title": "Outline of Welcome"
             }
+          },
+          {
+            "id": "9b931e833108e4b3",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "bases:Create new base": false
     }
   },
-  "active": "2df5421e20dae79d",
+  "active": "9eab99df11806b36",
   "lastOpenFiles": [
+    "Lezioni/Ripasso Probabilità.md",
+    "Lezioni/Ripasso probabilità.md",
     "Lezioni",
-    "Untitled",
-    "Lezioni/Welcome.md"
+    "Untitled"
   ]
 }
