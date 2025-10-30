@@ -6,7 +6,7 @@
       {
         "id": "37e38b6f8b72df3d",
         "type": "tabs",
-        "dimension": 42.98601714027966,
+        "dimension": 42.1028880866426,
         "children": [
           {
             "id": "f3fd2c081bfb1ce5",
@@ -21,17 +21,17 @@
               "icon": "lucide-file",
               "title": "Ripasso Probabilità"
             },
-            "group": "081f13efdb9c65c7"
+            "group": "e628c55ccfdaa5a6"
           }
         ]
       },
       {
-        "id": "31b2bde91334caff",
+        "id": "b88bdda113895d52",
         "type": "tabs",
-        "dimension": 30.807397383852052,
+        "dimension": 57.8971119133574,
         "children": [
           {
-            "id": "8f8a74b6abe0b9a7",
+            "id": "0ace6077656c792f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -43,24 +43,7 @@
               "icon": "lucide-file",
               "title": "Ripasso Probabilità"
             },
-            "group": "081f13efdb9c65c7"
-          }
-        ]
-      },
-      {
-        "id": "1b943bae3c91eb4f",
-        "type": "tabs",
-        "dimension": 26.206585475868287,
-        "children": [
-          {
-            "id": "9eab99df11806b36",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
+            "group": "e628c55ccfdaa5a6"
           }
         ]
       }
@@ -135,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lezioni/Welcome.md",
+                "file": "Lezioni/Ripasso Probabilità.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,21 +128,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome"
-            }
-          },
-          {
-            "id": "20dcc57bd1260844",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Lezioni/Welcome.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Welcome"
+              "title": "Backlinks for Ripasso Probabilità"
             }
           },
           {
@@ -201,13 +170,27 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "20dcc57bd1260844",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Lezioni/Ripasso Probabilità.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Ripasso Probabilità"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 335.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -221,11 +204,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "9eab99df11806b36",
+  "active": "f3fd2c081bfb1ce5",
   "lastOpenFiles": [
+    "Assets/Probabilità/funzioneQ.png",
+    "Assets/Probabilità/gaussiana.png",
+    "Assets/Probabilità",
+    "Assets",
     "Lezioni/Ripasso Probabilità.md",
     "Lezioni/Ripasso probabilità.md",
-    "Lezioni",
-    "Untitled"
+    "Lezioni"
   ]
 }
