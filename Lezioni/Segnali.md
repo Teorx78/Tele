@@ -53,6 +53,11 @@ $s(t)\rightarrow y(t)=s(\frac{(t-t_0)}{A})$. Subisce una traslazione di un fatto
 - Traslazione: $z(t) \rightarrow y(t)=z(t-t_0) = s(\frac{(t-t_0)}{A})$
 
 ### Campionamento 
+Produce un segnale a tempo discreto a partire da uno continuo. Si sceglie un periodo di campionamento $T_i$ e si segnano i punti del segnale continuo ogni $T_i$.
+
 ![[campionamento.png]]
+Vale: $s_C(nT) = s(nT)$ , con $s_C$ segnale a tempo discreto post-campionamento. 
 ### Interpolazione
+Produce un segnale a tempo continuo a partire da uno discreto.  Si usa un segnale $h(t)$ (che può essere di qualsiasi tipologia, rect, triang etc.) lo si moltiplica punto per punto al segnale a tempo discreto. Si ottiene dunque un segnale che ha i punti di max e min uguali al segnale discreto di partenza ma assume la forma del segnale $h(t)$.
 ![[Interpolazione.png]]
+Vale $s(t) = \sum_{n=-\infty}^{+\infty}s_C(nT)*h(t-nT)$
