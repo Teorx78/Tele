@@ -51,3 +51,8 @@ $s(t)\rightarrow y(t)=s(\frac{(t-t_0)}{A})$. Subisce una traslazione di un fatto
 È dunque possibile dividere in due fasi questa operazione:
 - Scalamento: $s(t) \rightarrow z(t)= s(\frac{t}{A})$
 - Traslazione: $z(t) \rightarrow y(t)=z(t-t_0) = s(\frac{(t-t_0)}{A})$
+
+### Campionamento 
+![[campionamento.png]]
+### Interpolazione
+![[Interpolazione.png]]
