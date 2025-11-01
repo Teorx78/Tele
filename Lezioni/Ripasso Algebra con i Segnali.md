@@ -8,3 +8,11 @@ Valgono le operazioni di uno spazio vettoriale:
 $<x(t), y(t)> = \int_{-\infty}^{+\infty}x(t)*y(t) \, dt$
 Vale quindi: $<x(t), x(t)> = \int_{-\infty}^{+\infty}x^2(t) \, dt = E_x$
 
+### Linearità del prodotto
+$<\alpha x_1(t) + \beta x_2(t), y(t)> = \alpha<x_1(t), y(t)> + \beta<x_2(t), y(t)>$
+
+### Norma di un vettore
+$||x(t)|| = \sqrt{<x(t), x(t)>} = \sqrt{E_x}$
+
+### Sottospazio generato da $M$ segnali
+Dati $M$ segnali $s_1(t),\dots,s_M(t)$
