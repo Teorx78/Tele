@@ -16,4 +16,4 @@ Il segnale ricevuto può essere:
 	  - Interferenza inter-simbolica: le trasmissioni di simboli vicini si disturbano.
 
 ### Ricevitore Digitale
-Al ricevitore troviamo la situazione inverse al Trasmettitore. Un segnale $r(t)$ entra nel demulatore digitale che dovrà scegliere quale forma d'onda è stata trasmessa sulla base del segnale ricevuto. Dunque produce sequenze di segnali $\hat a_n$ , che entrano nel bit demapper producendo una sequenza di $\hat b_l$. Con $\hat a_n \neq a_n$ e $\hat b_l \neq b_l$, poiché sono versione ricostruite.
+Al ricevitore troviamo la situazione inverse al Trasmettitore. Un segnale $r(t)$ entra nel [[Demodulazione Digitale|demulatore digitale]] che dovrà scegliere quale forma d'onda è stata trasmessa sulla base del segnale ricevuto. Dunque produce sequenze di segnali $\hat a_n$ , che entrano nel bit demapper producendo una sequenza di $\hat b_l$. Con $\hat a_n \neq a_n$ e $\hat b_l \neq b_l$, poiché sono versione ricostruite.
