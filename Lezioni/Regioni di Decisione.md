@@ -23,3 +23,25 @@ Basta quindi integrare ogni $\mathcal D$ per ottenere le aree e poi sommarle per
 
 Ora per massimizzarla mi basterà associare ad ogni $\vec r$ la regione di regione $m$ con $\hat a_0=m$ , che ha il valore massimo di $D(\vec r, i)$ 
 $\Rightarrow \hat a_0 = arg_mmaxD(\vec r,m)$ , con $m \in [1,\dots,M]$
+
+### Criteri di Decisione
+Definiamo $\vec r = \vec \rho$
+##### MAP
+Maximum A Posteriori
+$\hat a_0 = arg_mmaxP_{r|a_0}(m|\vec\rho)$
+È il caso generale, quindi viene usato quando a priori si hanno simboli con probabilità diversa
+##### ML
+Maximum Likehood
+$\hat a_0 = arg_mmaxP_{r|a_0}(\vec\rho|m)$
+Si usa quando i simboli sono equiprobabili
+##### MD
+Minimum Distance
+$\hat a_0 = arg_mmin||\vec\rho-\vec s_m||^2=arg_mmin\ d(\vec\rho, \vec s_m)$
+Si usa quando i simboli sono equiprobabili e siamo in presenza di rumore. Infatti si ha ha: $\vec r = \vec s_m + \vec w$
+
+### Costruzione delle Regioni di decisione
+Si tratta di trovare il punto medio dei segmenti che congiungono i segnali che compongono la costellazione
+
+![[2.png]]
+![[3.png]]
+![[4.png]]
