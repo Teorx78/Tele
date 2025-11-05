@@ -6,6 +6,7 @@ $\bigcup_{m=1}^M\mathcal R_m=R^I$ e si ha $\mathcal R_i \cap \mathcal R_j=0$ per
 ![[Regioni di Decisione.png]]
 
 ### Progetto delle Regioni
+Ricordo $f$ [[Ripasso Probabilità#Variabile Aleatoria Gaussiana|densità]] di una v.a.
 
 Obiettivo: massimizzare la probabilità di decisione corretta:
 $maxP(\hat a_0=a_0)$ , con $a_0$ simbolo trasmesso al tempo $0$, $\hat a_0$ decisione in merito al simbolo trasmesso al tempo $0$.
@@ -32,7 +33,7 @@ $\hat a_0 = arg_mmaxP_{r|a_0}(m|\vec\rho)$
 È il caso generale, quindi viene usato quando a priori si hanno simboli con probabilità diversa
 ##### ML
 Maximum Likehood
-$\hat a_0 = arg_mmaxP_{r|a_0}(\vec\rho|m)$
+$\hat a_0 = arg_mmaxf_{r|a_0}(\vec\rho|m)$
 Si usa quando i simboli sono equiprobabili
 ##### MD
 Minimum Distance

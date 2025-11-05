@@ -34,7 +34,7 @@ Sono caratterizzate da un alfabeto infinito e non numerabile (ad esempio $R$)
 Viene definita la funzione di distribuzione di probabilità: $F_X(a)=P(X)\leq a)$. In particolare si ha che $P(X \in [A,B]) = F_X(B)-F_X(A)$
 
 Viene definita invece densità di probabilità: $f_x(a) = \frac{df_X(a)}{dX}$
-Ha come propietà:
+Ha come proprietà:
 - $\int_{-\infty}^{\infty} f_X(a) \, dx = 1$ : Normalizzazione
 - $\int_{A}^{B} f_X(a) \, dx \geq 0$ 
 
