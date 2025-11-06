@@ -29,7 +29,7 @@ $\Rightarrow \hat a_0 = arg_mmaxD(\vec r,m)$ , con $m \in [1,\dots,M]$
 Definiamo $\vec r = \vec \rho$
 ##### MAP
 Maximum A Posteriori
-$\hat a_0 = arg_mmaxP_{r|a_0}(m|\vec\rho)$
+$\hat a_0 = arg_mmaxf_{r|a_0}(m|\vec\rho)$
 È il caso generale, quindi viene usato quando a priori si hanno simboli con probabilità diversa
 ##### ML
 Maximum Likehood

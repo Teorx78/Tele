@@ -6,7 +6,7 @@
       {
         "id": "37e38b6f8b72df3d",
         "type": "tabs",
-        "dimension": 56.28997867803838,
+        "dimension": 39.16913946587537,
         "children": [
           {
             "id": "36077a23aa4d729f",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lezioni/Modulazione digitale.md",
+                "file": "Lezioni/Teorema dell'irrilevanza.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Modulazione digitale"
+              "title": "Teorema dell'irrilevanza"
             },
             "group": "4b4ca2fec32fd785"
           }
@@ -28,7 +28,7 @@
       {
         "id": "ad86c691115db9a7",
         "type": "tabs",
-        "dimension": 43.71002132196162,
+        "dimension": 60.83086053412463,
         "children": [
           {
             "id": "b002da5e34530fcb",
@@ -46,12 +46,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lezioni/Modulazione digitale.md",
+                "file": "Lezioni/Teorema dell'irrilevanza.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Modulazione digitale"
+              "title": "Teorema dell'irrilevanza"
             },
             "group": "4b4ca2fec32fd785"
           }
@@ -113,7 +113,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "5136a22173a397bd",
@@ -217,16 +218,16 @@
   },
   "active": "36077a23aa4d729f",
   "lastOpenFiles": [
-    "Lezioni/Rapporto Segnale-Rumore.md",
-    "Lezioni/Teorema dell'irrilevanza.md",
     "Lezioni/Regioni di Decisione.md",
     "Lezioni/Realizzazione del ricevitore digitale.md",
+    "Lezioni/Teorema dell'irrilevanza.md",
+    "Lezioni/Ripasso Probabilità.md",
+    "Lezioni/Ripasso Algebra con i Segnali.md",
+    "Lezioni/Modulazione digitale.md",
+    "Lezioni/Rapporto Segnale-Rumore.md",
     "Lezioni/Demodulazione Digitale.md",
     "Lezioni/Energia di un Segnale.md",
-    "Lezioni/Ripasso Probabilità.md",
     "Lezioni/Segnali.md",
-    "Lezioni/Modulazione digitale.md",
-    "Lezioni/Ripasso Algebra con i Segnali.md",
     "Assets/Regioni di Decisione/3.png",
     "Assets/Regioni di Decisione/4.png",
     "Assets/Regioni di Decisione/2.png",
