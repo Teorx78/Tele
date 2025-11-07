@@ -17,4 +17,4 @@ $E[E_{{As}_{TX}}]=P(bit=0)*A^2E_{s0}+P(bit=1)*A^2E_{s1}$
 Per i rumore:
 $E[E_w]=E[\int_0^Tw^2(t) \, dt]=\sigma^2T$ 
 
-
+#segnali 

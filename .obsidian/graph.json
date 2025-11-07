@@ -5,8 +5,30 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#segnali  ",
+      "color": {
+        "a": 1,
+        "rgb": 16766208
+      }
+    },
+    {
+      "query": "tag:#ripassi  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "tag:#modulazione  ",
+      "color": {
+        "a": 1,
+        "rgb": 7627518
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -17,6 +39,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.0534979423868287,
+  "scale": 0.8854989543150321,
   "close": true
 }

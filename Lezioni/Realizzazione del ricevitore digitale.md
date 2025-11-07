@@ -25,3 +25,5 @@ Poi si applicano i criteri di decisione per trovare $\hat a_k$
 
 Viene eseguito semplicemente:
 $\hat a_k = arg_mmax[<\vec r , \vec s> - \frac{1}{2}E_{s_m}]$
+
+#modulazione 

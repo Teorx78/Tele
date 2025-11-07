@@ -30,6 +30,11 @@ $A*rect(t)=
 
 con $A=1$ si ottiene un quadrato (se non avviene uno [[Segnali#Scalamento nel tempo|Scalamento nel tempo]])
 
+Per scrivere la formula di un segnale $rect$ , si può usare questo schema:
+$s(t) = rect(\frac{t- centro\, della \, base}{larghezza \, della \, base})$
+
+Per calcolare il perido di tempo basta porre l'argomento del $rect$ $\in -\frac{1}{2}$ e $\frac{1}{2}$
+
 ##### Traingolo
 $A*triang(t)=
 \begin{cases}  
@@ -66,3 +71,5 @@ Vale $s(t) = \sum_{n=-\infty}^{+\infty}s_C(nT)*h(t-nT)$
 Viene eseguita istante per istante dell'altezza di ogni segnale.
 
 ![[sum.png]]
+
+#segnali

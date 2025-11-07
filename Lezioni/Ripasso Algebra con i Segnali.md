@@ -42,3 +42,4 @@ Da $M$ segnali $s_1(t),\dots,s_M(t)$ ottengo i segnali $\phi_1(t),\dots,\phi_I(t
    $\phi_{k+1}'(t)=s_m(t)-\sum_{i=1}^k<s_m(t),\phi_i(t)>\phi_i(t)$
    - se $\phi_{k+1}'(t)$ è identicamente nullo allora lo scarto
    - altrimenti aggiungo alla base parziale: $\phi_{k+1}(t) = \frac{\phi_{k+1}'(t)}{\sqrt{E_{\phi_{k+1}}}}$
+#ripassi

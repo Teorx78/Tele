@@ -67,3 +67,5 @@ La somma di v.a. indipendenti qualsiasi con la stessa densità di probabilità (
 $\frac{1}{\sqrt N}\sum_{i=0}^NY_i \rightarrow \mathcal{N}(m, \sigma)$ , con:
 - $m$ : $E[Y_i]$
 - $\sigma$ : $\sqrt{E[(Y_i-m)^2]}$
+
+#ripassi

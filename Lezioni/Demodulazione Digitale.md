@@ -23,3 +23,5 @@ Nel demulatore calcoliamo $\vec r = [r_1,\dots, r_I] = \vec s_{a_0}+\vec w$
 In base alla dimensione abbiamo un piano e rappresentazione diverso del rumore, per esempio con dimensione 1:
 ![[Costellazione.png]]
 La gaussiana indica "quanto spesso" può avvenire il rumore. Il rumore trasla lo spostamento dal segnale ricevuto rispettoa quello trasmesso.
+
+#modulazione

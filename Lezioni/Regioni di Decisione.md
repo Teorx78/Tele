@@ -46,3 +46,5 @@ Si tratta di trovare il punto medio dei segmenti che congiungono i segnali che c
 ![[2.png]]
 ![[3.png]]
 ![[4.png]]
+
+#modulazione
