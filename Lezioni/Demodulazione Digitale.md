@@ -18,7 +18,7 @@ $\vec s_i = ||s_i(t)||*\phi_i(t)$ ricordando come viene rappresentato un [[Demod
 ### Rumore dopo la proiezione
 $w_i = \int_{-\infty}^{+\infty}w(t)*\phi(t) \, dt$ , ma $w(t) \sim \mathcal N(0, \sigma^2)$ indipendenti per tempi diversi quindi $w_i$ è ancora una gaussiana.
 
-Nel demulatore calcoliamo $\vec r = [r_1,\dots, r_I] = \vec s_{a_0}+\vec w$
+Nel demodulatore calcoliamo $\vec r = [r_1,\dots, r_I] = \vec s_{a_0}+\vec w$
 
 In base alla dimensione abbiamo un piano e rappresentazione diverso del rumore, per esempio con dimensione 1:
 ![[Costellazione.png]]

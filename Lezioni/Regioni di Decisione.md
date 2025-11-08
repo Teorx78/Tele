@@ -16,7 +16,7 @@ $P(\hat a_0=a_0)=\sum_{m=1}^MP(\hat a_0=a_0 | a_0=m)*P(a_0=m)$ , con:
 - $P(\hat a_0=a_0 | a_0=m)$ : canale + ricevitore
 - $P(a_0=m)$ : trasmettitore, con $a_0 \rightarrow max$
 
-$\Rightarrow P(\hat a_0=a_0) = \sum_{m=1}^{M} \int_{\mathcal R_m} P_{a_0}(m)*P_{\vec r|a_0}(\vec b|m) d\vec b$, dove: $P_{a_0}(m)*P_{\vec r|a_0}(\vec b|m) = \mathcal D(\vec b, m)_{max}$ che è definita come la funzione di probabilità per la determinazione della regione di decisione ottimale.
+$\Rightarrow P(\hat a_0=a_0) = \sum_{m=1}^{M} \int_{\mathcal R_m} f_{a_0}(m)*f_{\vec r|a_0}(\vec b|m) d\vec b$, dove: $f_{a_0}(m)*f_{\vec r|a_0}(\vec b|m) = \mathcal D(\vec b, m)_{max}$ che è definita come la funzione di probabilità per la determinazione della regione di decisione ottimale.
 
 ![[Probabilità di decisone corretta.png]]
 
