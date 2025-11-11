@@ -27,6 +27,7 @@ $P[E] = Q(\frac{d}{\sigma^2_w})$
 
 ##### BPSK 
 Binary phase Shift Keying formato da:
+
 $s_1(t)=
 \begin{cases}  
 Acos(2\pi f_0t) &t\in[0, T] \\  
@@ -39,3 +40,39 @@ $s_1(t)=
 0 &altrove
 \end{cases}$
 
+Si considera il caso $f_0 >> 1/T \Rightarrow P(E) = Q(\sqrt{\frac{A^2T}{2\sigma^2_w}})$
+
+##### 2-MSK 
+Minimum Shift Keying formato da:
+
+$s_1(t)=
+\begin{cases}  
+Acos(2\pi f_0t) &t\in[0, T] \\  
+0 &altrove
+\end{cases}$
+
+$s_1(t)=
+\begin{cases}  
+Asin(2\pi f_0t) &t\in[0, T] \\  
+0 &altrove
+\end{cases}$
+
+Si considera il caso $f_0 >> 1/T \Rightarrow P(E) = Q(\sqrt{\frac{E_s}{2\sigma^2_w}})$
+
+### Ricevitore a singolo filtro
+
+Per una qualsiasi modulazione binaria posso usare un ricevitore con un solo filtro.
+In questo modo è possibili determinare le regioni di decisione del segnale $\vec r$.
+
+Possiamo scrivere: $\phi_1(t) = \frac{s_1(t) -s_2(t)}{d}$
+Il secondo termine della base sarà invece: $\phi_2(t)= \frac{s_1(t) - c\phi_1(t)}{\sqrt{E_2'}}$ , con:
+- $\phi_2'(t) = s_1(t) - c\phi_1(t)$ 
+- $c = <s_1(t),\phi_1(t)>= \frac{E_1-\sqrt{E_1E_2}\rho}{d}$ 
+- $E_2' = ||\phi_2'(t)||^2$   
+
+Impostiamo la soglia $s^*$, dove $s^*= \frac{E_1-E_2}{2d}$ 
+
+- se $r_1 >= s^* \Rightarrow r \in R_1$ 
+- se $r_1 < s^* \Rightarrow r \in R_2$
+
+#modulazione 
