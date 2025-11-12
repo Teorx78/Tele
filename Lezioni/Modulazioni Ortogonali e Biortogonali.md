@@ -41,4 +41,17 @@ $d_{min} = 2\sqrt {E_{h_{Tx}}}$
 L'[[Modulazione Binaria#Energia media della segnalazione|energia media]]:
 $E_s = \frac{M^2-1}{3}E_{h_{Tx}}$
 
+Le [[Regioni di Decisione|regioni di decisione]] sono divise in:
+- interne, quindi tutte quelle regioni $\mathcal R_i$ , con $i \in ]1,\dots,M[$
+- esterne, quindi $\mathcal R_1$ e $\mathcal R_M$
+Ho sempre $2$ regioni interne e $(M-2)$ regioni esterne
+La probabilità d'errore: $P(E)=\sum_{m=1}^MP(\vec r \notin \mathcal R_m|a_0=m)\frac{1}{M}$, che diventa:
+- interne: $2Q(\frac{d_{min}}{2\sigma_w})$ 
+- esterne: $Q(\frac{d_{min}}{2\sigma_w})$
+Sempre con $d_{min} = 2\sqrt {E_{h_{Tx}}}$
+
+La probabilità di errore corretta sul simbolo è: 
+$P(E) = 2(1-\frac{1}{M})Q(\sqrt{\frac{E_s*3}{\sigma_w*(M^2-1)}})$
+
+
 #modulazione 
