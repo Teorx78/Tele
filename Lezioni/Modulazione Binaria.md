@@ -21,8 +21,10 @@ Questa presenta dei casi particolari:
 ##### Segnali con la stessa energia
 $P[E] = \sqrt{\frac{E_s(1-\rho)}{2\sigma^2_w}}$
 ##### Segnali Ortogonali
+$<s_1(t), s_2(t)>=0$
 $P[E] = Q(\frac{d}{2\sigma^2_w})$
 ##### Segnali antipodali
+$s_1(t) = -s_2(t)$
 $P[E] = Q(\frac{d}{\sigma^2_w})$
 
 ##### BPSK 
