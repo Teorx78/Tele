@@ -52,6 +52,6 @@ Sempre con $d_{min} = 2\sqrt {E_{h_{Tx}}}$
 
 La probabilità di errore corretta sul simbolo è: 
 $P(E) = 2(1-\frac{1}{M})Q(\sqrt{\frac{E_s*3}{\sigma_w*(M^2-1)}})$
-
+$P_{bit}\simeq\frac{P(E)}{log_2M}$
 
 #modulazione 

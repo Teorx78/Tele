@@ -7,4 +7,7 @@ L'energia è definita:
 
 L'energia di un segnale è sempre positiva: $E_s \in [0, +\infty[$
 
+### Potenza
+Potenza del segnale è il rapporto tra l'energia e il periodo del segnale:  $P_s = \frac{E_s}{T}$ 
+
 #segnali

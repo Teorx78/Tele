@@ -27,6 +27,13 @@
         "a": 1,
         "rgb": 7627518
       }
+    },
+    {
+      "query": "tag:#canale  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
     }
   ],
   "collapse-display": true,
