@@ -35,7 +35,7 @@ $P(\vec r \notin \mathcal R_A|a_0=m (TIPO A)) = 1 - [1-Q(\frac{\sqrt{\frac{E_{h_
 ##### Tipo B - Regioni Esterne diverse dal tipo A
 - È a metà strada tra il centro e i bordi.
 - Una parte della regione è delimitata da linee verticali/orizzontali (tipo A),
-- ma una parte è delimitata da semi-rette che convergono nell’origine → decisione parzialmente angolare.
+- ma una parte è delimitata da semirette che convergono nell’origine → decisione parzialmente angolare.
 $P(\vec r \notin \mathcal R_B|a_0=m (TIPO B)) = 1 - (1-Q(\frac{\sqrt{\frac{E_{h_{Tx}}}{2}}}{2\sigma^2_w})(1-2Q(\frac{\sqrt{\frac{E_{h_{Tx}}}{2}}}{2\sigma^2_w}))$
 ##### Tipo C - Regioni interne
 - Regione **esterna**, tipicamente ai bordi della costellazione, ancora più spesso negli angoli.
