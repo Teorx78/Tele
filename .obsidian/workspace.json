@@ -4,47 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "ee138092df3ded9f",
+        "id": "acafe78f10ad7ac9",
         "type": "tabs",
         "children": [
           {
-            "id": "33223dae5374b091",
+            "id": "7347cc9878bab886",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lezioni/Quadrature Amplitude Modulation.md",
+                "file": "Lezioni/Quantizzazione.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Quadrature Amplitude Modulation"
-            },
-            "group": "50b3ee7be186bf9b"
-          }
-        ]
-      },
-      {
-        "id": "524bb1b006336c8d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "72088d4c313fd234",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lezioni/Quadrature Amplitude Modulation.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Quadrature Amplitude Modulation"
-            },
-            "group": "50b3ee7be186bf9b"
+              "title": "Quantizzazione"
+            }
           },
           {
-            "id": "fcb5c6ab321ec43b",
+            "id": "2f522f1229bbf473",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -85,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#modulazione",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -212,43 +190,42 @@
       "bases:Create new base": false
     }
   },
-  "active": "33223dae5374b091",
+  "active": "7347cc9878bab886",
   "lastOpenFiles": [
-    "Lezioni/Modulazione Binaria.md",
-    "Lezioni/Modulazione digitale.md",
-    "Lezioni/Modulazione M-arie.md",
-    "Lezioni/Modulazioni Ortogonali e Biortogonali.md",
+    "Assets/Quantizzatore/quantizzatore_uniforme.png",
+    "Assets/Quantizzatore",
+    "Assets/Nuova cartella",
     "Lezioni/Quadrature Amplitude Modulation.md",
-    "Lezioni/Rapporto Segnale-Rumore.md",
-    "Lezioni/Realizzazione del ricevitore digitale.md",
-    "Lezioni/Regioni di Decisione.md",
-    "Lezioni/Ripasso Algebra con i Segnali.md",
-    "Lezioni/Segnali.md",
-    "Lezioni/Demodulazione Digitale.md",
-    "Lezioni/Energia di un Segnale.md",
+    "Lezioni/Quantizzazione.md",
+    "Assets/Modulazione Digitale/mappatura_bitQAM.png",
+    "Lezioni/Modulazione M-arie.md",
+    "Lezioni/Modulazione Binaria.md",
+    "Lezioni/Modulazioni Ortogonali e Biortogonali.md",
+    "Assets/Modulazione Digitale/QAM.png",
+    "Assets/Modulazione Digitale",
     "Lezioni/Modelli di Canale.md",
-    "Lezioni/Teorema dell'irrilevanza.md",
-    "Lezioni/Ripasso Probabilità.md",
     "Assets/Canale/Cavo Elettrico.png",
     "Assets/Canale",
-    "Assets/Nuova cartella",
     "Assets/Segnali/impulso.png",
-    "Untitled.canvas",
-    "Lezioni/Canale AWGN.md",
-    "Assets/Regioni di Decisione/Probabilità di decisone corretta.png",
-    "Assets/Regioni di Decisione/4.png",
+    "Lezioni/Ripasso Algebra con i Segnali.md",
+    "Lezioni/Segnali.md",
+    "Lezioni/Ripasso Probabilità.md",
+    "Lezioni/Energia di un Segnale.md",
+    "Lezioni/Demodulazione Digitale.md",
+    "Lezioni/Modulazione digitale.md",
+    "Lezioni/Realizzazione del ricevitore digitale.md",
+    "Lezioni/Regioni di Decisione.md",
+    "Lezioni/Teorema dell'irrilevanza.md",
+    "Lezioni/Rapporto Segnale-Rumore.md",
     "Assets/Regioni di Decisione/3.png",
+    "Assets/Regioni di Decisione/4.png",
     "Assets/Regioni di Decisione/2.png",
-    "Assets/Regioni di Decisione/Regioni di Decisione.png",
-    "Regioni.md",
+    "Assets/Regioni di Decisione/Probabilità di decisone corretta.png",
+    "Assets/Segnali/triang.png",
+    "Assets/Segnali/sum.png",
     "Assets/Regioni di Decisione/Regioni di Decisione.HEIC",
     "Assets/Regioni di Decisione",
-    "Assets/Altro/Regioni di Decisione.HEIC",
-    "Assets/Altro/Regioni di Decisione.png",
-    "Assets/Altro",
-    "Assets/Segnali/Costellazione.png",
-    "Demodulazione Digitale^.md",
-    "Assets/Segnali/sum.png",
+    "Lezioni/Canale AWGN.md",
     "Assets/Segnali",
     "Assets/Probabilità",
     "Assets",
