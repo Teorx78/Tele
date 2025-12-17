@@ -8,24 +8,17 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#segnali  ",
-      "color": {
-        "a": 1,
-        "rgb": 16766208
-      }
-    },
-    {
       "query": "tag:#ripassi  ",
       "color": {
         "a": 1,
-        "rgb": 16711680
+        "rgb": 14725458
       }
     },
     {
-      "query": "tag:#modulazione  ",
+      "query": "tag:#segnali  ",
       "color": {
         "a": 1,
-        "rgb": 7627518
+        "rgb": 11657298
       }
     },
     {
@@ -36,10 +29,24 @@
       }
     },
     {
-      "query": "tag:#quantizzazione  ",
+      "query": "tag:#modulazione  ",
       "color": {
         "a": 1,
         "rgb": 5431473
+      }
+    },
+    {
+      "query": "tag:#quantizzazione  ",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "tag:#codifica_di_canale  ",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
       }
     }
   ],
@@ -53,6 +60,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.6348539419392013,
+  "scale": 1.0126346058283722,
   "close": true
 }
