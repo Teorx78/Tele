@@ -36,6 +36,6 @@ $d_{min}=min d_H(\gamma1,\gamma2)$, con $\gamma_i$ codeword, posso sempre rileva
 
 Fornisce un limite superiore al [[Codifica di Canale#Code Ratio|code ratio]] in funzione del numero di errori che posso sempre correggere:
 
-$\frac{k}{n} \leq 1 - \frac{1}{n} \log_2\sum_{r=0}^t \binom{n}{r}$ , con $r$ valori delle distanze in particolare $r=0,\dots,t$
+$\frac{k}{n} \leq 1 - \frac{1}{n} \log_2\sum_{r=0}^t \binom{n}{r}$ , con $r$ valori delle distanze in particolare $r=0,\dots,t$. Che si può riscrivere come: $2^n \geq 2^k \sum_{r=0}^t \binom{n}{r}$ (interpretazione geometrica)
 
 #codifica_di_canale 

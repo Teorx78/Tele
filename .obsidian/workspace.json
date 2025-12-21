@@ -4,81 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "acafe78f10ad7ac9",
+        "id": "ee138092df3ded9f",
         "type": "tabs",
         "children": [
           {
-            "id": "803074dcbba8996b",
+            "id": "f603aa782408807f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lezioni/Criteri di Decodifica.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Criteri di Decodifica"
-            }
-          },
-          {
-            "id": "f287e4ba02d0f7bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lezioni/Codici lineari a blocco.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Codici lineari a blocco"
-            }
-          },
-          {
-            "id": "f5b104dc22ab61e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lezioni/Decodifica di codici lineari a blocco.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Decodifica di codici lineari a blocco"
-            }
-          },
-          {
-            "id": "39328dcf07856bba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lezioni/Hamming Codes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Hamming Codes"
-            }
-          },
-          {
-            "id": "1d7be2356037f795",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lezioni/Codifica di Canale.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Codifica di Canale"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#modulazione",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -238,53 +177,54 @@
       "bases:Create new base": false
     }
   },
-  "active": "39328dcf07856bba",
+  "active": "f603aa782408807f",
   "lastOpenFiles": [
-    "Lezioni/Decodifica di codici lineari a blocco.md",
     "Lezioni/Hamming Codes.md",
-    "Pasted image 20251220093939.png",
-    "Lezioni/Codifica di Canale.md",
     "Lezioni/Codici lineari a blocco.md",
     "Lezioni/Criteri di Decodifica.md",
-    "Lezioni/Energia di un Segnale.md",
-    "Lezioni/Modelli di Canale.md",
-    "Lezioni/Pasted image 20251217141649.png",
-    "Criteri di Decodifica.md",
-    "Lezioni/Regioni di Decisione.md",
-    "Lezioni/Demodulazione Digitale.md",
-    "Lezioni/Modulazione digitale.md",
+    "Lezioni/Decodifica di codici lineari a blocco.md",
     "Lezioni/Rapporto segnale-rumore di Quantizzazione.md",
+    "Lezioni/Pasted image 20251217141649.png",
+    "Lezioni/Codifica di Canale.md",
     "Assets/Codifica di Canale/Codifica_di_canale_Blocchi.png",
     "Assets/Codifica di Canale",
-    "Assets/Nuova cartella/Codifica_di_canale_Blocchi.png",
-    "Assets/Nuova cartella",
-    "Pasted image 20251217141649.png",
-    "Lezioni/Segnali.md",
-    "Lezioni/Ripasso Algebra con i Segnali.md",
-    "Lezioni/Modulazione M-arie.md",
-    "Lezioni/Modulazioni Ortogonali e Biortogonali.md",
-    "Lezioni/Quadrature Amplitude Modulation.md",
-    "Lezioni/Realizzazione del ricevitore digitale.md",
-    "Lezioni/Quantizzatore uniforme.md",
-    "Lezioni/Modulazione Binaria.md",
     "Lezioni/Quantizzazione.md",
+    "Lezioni/Quantizzatore uniforme.md",
+    "Lezioni/Rapporto Segnale-Rumore.md",
+    "Lezioni/Quadrature Amplitude Modulation.md",
     "Assets/Quantizzatore/quantizzatore_uniforme.png",
     "Assets/Quantizzatore",
     "Assets/Modulazione Digitale/mappatura_bitQAM.png",
     "Assets/Modulazione Digitale/QAM.png",
     "Assets/Modulazione Digitale",
+    "Lezioni/Modulazione Binaria.md",
+    "Lezioni/Modulazione digitale.md",
+    "Lezioni/Modulazione M-arie.md",
+    "Lezioni/Modulazioni Ortogonali e Biortogonali.md",
+    "Lezioni/Realizzazione del ricevitore digitale.md",
+    "Lezioni/Regioni di Decisione.md",
+    "Lezioni/Ripasso Algebra con i Segnali.md",
+    "Lezioni/Segnali.md",
+    "Lezioni/Demodulazione Digitale.md",
+    "Lezioni/Energia di un Segnale.md",
+    "Lezioni/Modelli di Canale.md",
+    "Lezioni/Teorema dell'irrilevanza.md",
+    "Lezioni/Ripasso Probabilità.md",
     "Assets/Canale/Cavo Elettrico.png",
     "Assets/Canale",
+    "Assets/Nuova cartella",
     "Assets/Segnali/impulso.png",
-    "Lezioni/Ripasso Probabilità.md",
-    "Lezioni/Teorema dell'irrilevanza.md",
-    "Lezioni/Rapporto Segnale-Rumore.md",
+    "Untitled.canvas",
+    "Lezioni/Canale AWGN.md",
+    "Assets/Regioni di Decisione/Probabilità di decisone corretta.png",
+    "Assets/Regioni di Decisione/4.png",
+    "Assets/Regioni di Decisione/3.png",
+    "Regioni.md",
     "Assets/Regioni di Decisione/Regioni di Decisione.HEIC",
     "Assets/Regioni di Decisione",
-    "Lezioni/Canale AWGN.md",
-    "Assets/Segnali",
-    "Assets/Probabilità",
-    "Assets",
-    "Lezioni/Ripasso probabilità.md"
+    "Assets/Altro/Regioni di Decisione.HEIC",
+    "Assets/Altro",
+    "Demodulazione Digitale^.md",
+    "Assets/Segnali"
   ]
 }
