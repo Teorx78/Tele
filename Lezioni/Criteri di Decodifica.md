@@ -6,15 +6,15 @@ In pratica il decoder associa ad ogni word $\widetilde{c}_m$ un'unica informatio
 
 Anche qui è presente la probabilità di decisione corretta molto simile a quella vista nella [[Regioni di Decisione#Probabilità di decisione corretta|modulazione]]:
 
-$P(c)=\sum_{l=1}^{2^k}P(\hat c_0=c | c=c_l)*P(c_l)$
+$P(c)=\sum_{l=1}^{2^k}P(\hat c_0=c | c=c_{\mathcal C})*P(c_{\mathcal C})$
 
 ### MAP
-$\hat c(\underline{\beta}) = argmax_{\underline{\alpha}\in l} f(\underline{\widetilde c}=\underline{\beta}|\vec c = \underline{\alpha})*f(\vec c=\underline{\alpha})$ , dove:
+$\hat c(\underline{\beta}) = argmax_{\underline{\alpha}\in \mathcal C} f(\underline{\widetilde c}=\underline{\beta}|\vec c = \underline{\alpha})*f(\vec c=\underline{\alpha})$ , dove:
 - $\underline{\hat c}(\underline{\beta})$ è la codeword decisa quando riceviamo la sequenza di $n$ bit $\beta$
 - $l$ la codifica
 - $f(\underline{\widetilde c}=\underline{\beta}|\vec c = \underline{\alpha})$ : probabilità di transizione del canale da $\underline{\alpha}$ a $\underline{\beta}$ (che sono sequenze binarie)
 ### ML
-$\hat c(\underline{\beta}) = argmax_{\underline{\alpha}\in l} f(\underline{\widetilde c}=\underline{\beta}|\vec c = \underline{\alpha})$
+$\hat c(\underline{\beta}) = argmax_{\underline{\alpha}\in \mathcal C} f(\underline{\widetilde c}=\underline{\beta}|\vec c = \underline{\alpha})$
 
 ### MD di Hamming
 Considero le sequenze binarie:

@@ -18,22 +18,42 @@ Proprietà:
 4) $||\underline{x}+\underline{y}||_H \leq ||\underline{x}||_H+||\underline{y}||_H$
 
 Si può riscrivere la [[Criteri di Decodifica#MD di Hamming|distanza di Hamming]] come:
-$d_H(\underline{x},\underline{y}) = ||\underline{x}-\underline{y}||_H$
-Un codice a blocco lineare $l = \{\underline{c}_1,\dots,\underline{c}_n\}$ è un qualsiasi sottospazio lineare dello spazio delle sequenze lunghe $n$. 
-$|l|=2^k$
+$d_{min}=d_H(\underline{x},\underline{y}) = ||\underline{x}-\underline{y}||_H$
+Un codice a blocco lineare $\mathcal C = \{\underline{c}_1,\dots,\underline{c}_n\}$ è un qualsiasi sottospazio lineare dello spazio delle sequenze lunghe $n$. 
+$|\mathcal C|=2^k$
 
 ### Matrice generatrice di un codice lineare a blocco
 È una matrice $\underline{\mathcal G}$ di dimensione $n$ x $k$, tale che $\underline{\mathcal G}$ ha rango $k$.
 
-Si ha che le word $\underline{c} = \underline{\mathcal G}\underline{b} \;\; \forall \underline{b}$ , con $\underline{b}$ sequenza lunga $k$ che viene codificata in $\underline{c} \Leftrightarrow \underline{c} \in l$ 
+Si ha che le word $\underline{c} = \underline{\mathcal G}\underline{b} \;\; \forall \underline{b}$ , con $\underline{b}$ sequenza lunga $k$ che viene codificata in $\underline{c} \Leftrightarrow \underline{c} \in \mathcal C$ 
 $\begin{bmatrix} c_1 \\ \vdots \\ c_n \end{bmatrix} = \underline{\mathcal G} \begin{bmatrix} c_1 \\ \vdots \\ b_k \end{bmatrix}$ 
 
 Ogni colonna di $\underline{\mathcal G}$ è una word.
 
 $\underline{\mathcal G}$  semplifica le operazioni di codifica:
-- Se $l$ non è lineare serve una tabella di $2^kn$ bit
-- Se $l$ è lineare serve una tabella di $nk$ bit
+- Se $\mathcal C$ non è lineare serve una tabella di $2^kn$ bit
+- Se $\mathcal C$ è lineare serve una tabella di $nk$ bit
 
-Matrice generatrie in forma sistematica: significa rappresentare il codice in modo tale che i bit di informazione compaiano esplicitamente e invariati all’interno della codeword, mentre i restanti bit sono bit di ridondanza calcolati come combinazioni lineari dei bit informativi.
+Matrice generatrice in forma sistematica: significa rappresentare il codice in modo tale che i bit di informazione compaiano esplicitamente e invariati all’interno della codeword, mentre i restanti bit sono bit di ridondanza calcolati come combinazioni lineari dei bit informativi.
+In particolare una matrice generatrice sistematica $k$ può essere riscritta come:
+$\underline{\mathcal G} = \underline{\mathcal I} | \underline{A}$ , dove:
+- $\underline{\mathcal I}$ è la matrice identità $k$ x $k$
+- $\underline{A}$ è la matrice $n-k$ x $k$
+Dunque sarà possibile riscrivere l'operazione $\underline{c} = \underline{\mathcal G}\underline{b} = [\underline{b}|\underline{b}\underline{A}]$. 
+
+### Peso di Hamming
+Il peso di Hamming di una sequenza binaria è: $w_H(\underline{x}) = ||x||_H$
+Il peso di Hamming di un codice è: $w_H(\mathcal C) = min\,w_H(\underline{c})$ 
+
+In un codice lineare a blocco il peso di Hamming del codice è uguale alla distanza minima del codice $\Rightarrow w_H(\mathcal C) = min\,d_H(\underline{c}_i,\underline{c}_j)$ 
+
+### Bound di Singleton
+Per codici lineari a blocco la distanza minima del codice è limitata superiormente:
+$d_{min} \leq n-k+1$
+
+$\Rightarrow w_H(l_i) \leq 1+(n-k)$ è il peso di ogni colonna della matice che si può riscrivere come:
+$\underline{\mathcal G} = [\dfrac{\underline{\mathcal I}}{A}]$ il peso di ogni colonna sarà dato dal numero di uno per colonna.
+
+
 
 #codifica_di_canale 

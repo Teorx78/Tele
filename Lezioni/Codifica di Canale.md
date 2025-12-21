@@ -1,5 +1,5 @@
 È una tecnica che trasforma un messaggio digitale con informazione $\{b_l\}$ in un altro messaggio $\{c_l\}$che è più "robusto" agli errori. La robustezza è data da un po' di ridondanza dovuta all'aggiunta di simboli addizionali determinati in modo univoco dal messaggio con informazione. 
-L'insieme dei possibili messaggi trasmessi è $C$, che è un sottoinsieme dei possibili sequenze ricevute $\widetilde{C}$. In pratica ogni messaggio ricevuto $\widetilde{c_l}$ può appartenere a $\widetilde{C}$ se il messaggio contiene errori o a $C$ se il messaggio appartiene all'insieme dei trasmessi.
+L'insieme dei possibili messaggi trasmessi è $\mathcal C$, che è un sottoinsieme dei possibili sequenze ricevute $\widetilde{\mathcal C}$. In pratica ogni messaggio ricevuto $\widetilde{c_l}$ può appartenere a $\widetilde{\mathcal C}$ se il messaggio contiene errori o a $\mathcal C$ se il messaggio appartiene all'insieme dei trasmessi.
 
 Quando si ricevono messaggi "non validi" allora ci sono due modi principali per gestirli.
 
