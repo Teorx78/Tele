@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#ripassi  ",
@@ -18,28 +18,28 @@
       "query": "tag:#segnali  ",
       "color": {
         "a": 1,
-        "rgb": 11657298
+        "rgb": 13629192
       }
     },
     {
       "query": "tag:#canale  ",
       "color": {
         "a": 1,
-        "rgb": 5431378
+        "rgb": 2094111
       }
     },
     {
       "query": "tag:#modulazione  ",
       "color": {
         "a": 1,
-        "rgb": 5431473
+        "rgb": 8772542
       }
     },
     {
       "query": "tag:#quantizzazione  ",
       "color": {
         "a": 1,
-        "rgb": 5419488
+        "rgb": 5287644
       }
     },
     {
@@ -47,6 +47,13 @@
       "color": {
         "a": 1,
         "rgb": 5395168
+      }
+    },
+    {
+      "query": "tag:#informazione_e_entropia  ",
+      "color": {
+        "a": 1,
+        "rgb": 8000461
       }
     }
   ],
@@ -60,6 +67,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.7222874169397263,
+  "scale": 1.1653582681828198,
   "close": true
 }

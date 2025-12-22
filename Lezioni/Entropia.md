@@ -23,7 +23,42 @@ Inoltre $H(x) = log_2M$ se e solo se $x$ è uniforme nell'alfabeto (ogni risulta
 
 ### Vettore aleatorio
 $\underline{x} = [x_1,\dots,x_n]$ , dove $x_i$ è una variabile aleatoria discreta.
-[[Ripasso Probabilità#Variabili aleatorie Discrete|Densità di probabilità]] del vettore aleatorio: $P_{\underline{x}}(a) = P[\underine{x}=\underline{a}=[a_1,\dots,a_N]]= P(x_1=a_1,\dots,)$ 
+[[Ripasso Probabilità#Variabili aleatorie Discrete|Densità di probabilità]] del vettore aleatorio: $p_{\underline{x}}(\underline{a}) = P[\underline{x}=\underline{a}=[a_1,\dots,a_N]]= P(x_1=a_1,\dots,)$ 
+
+Funzione informazioni di vettori:
+$i_{\underline{x}}(a) =log_2\frac{1}{p_{\underline{x}}(\underline{a})}$ , con:
+- $\underline{a} = A^N= A*A*\dots*A*A$
+- $x_i\in A$
+##### Entropia di vettori aleatori
+$H(x) = E[i_x(x)] = \sum_{\underline{a} \in A_{\underline{x}}}p_{\underline{x}}(\underline{a})log_2\frac{1}{p_{\underline{x}}(\underline{a})}$
+
+### y come funzione deterministica di x
+Sia $y=f(x)$ , dove $b = f(a)$ funzione algebrica.
+
+In [[Canale AWGN|AWGN]] si ha invece: $r=f(s)=s+w$. Dunque la presenza di un termine $w$ la rende non deterministica.
+
+In caso deterministico si ha: $H([x,y]) = H(x)$
+
+### Entropia congiunta di v.a.
+Significa calcolare $H(x,y) \neq H([x,y])$, si divide in due casi:
+- Se sono indipendenti: $H(x,y)=H(x)+H(y)$
+- Se sono non indipendenti: $H(x,y)<H(x)+H(y)$
+
+### Entropia di v.a. condizionate
+Se $x$ è condizionata a $y$ la densità di probabilità condizionata è: $p_{x|y}(a|b)=P(x=a|y=b)$. Dunque si può riscrivere la funzione informazione come: $i_{x|y}(a|b)=-log_2p_{x|y}(a|b)$. Quindi l'entropia di una v.a. condizionata al valore di un'altra v.a. sarà:
+$H(x|y=b)=\sum_ap_{x|y}(a|b)log_2\frac{1}{p_{x|y}(a|b)}$
+Se invece $x$ e $y$ sono indipendenti $H(x|y=b)=H(x)$
+##### Entropia condizionata
+$H(x|y)=\sum_{a,b}p_{x,y}(a|b)log_2\frac{1}{p_{x|y}(a|b)}=E_{x,y}[log_2\frac{1}{p_{x|y}(a|b)}]$
+Dunque si può anche riscrivere: $H(x,y) = H(y|x)+H(x)$
+
+### Informazione mutua tra due v.a.
+$I(x;y)=H(y)-H(y|x)=H(x)-H(x|y) \Rightarrow \, \leq min\{H(x),H(y)\}$ ma è sempre una quantità positiva.
+Se $x$ e $y$ sono indipendenti $\Rightarrow I(x;y)=0$
+Se $x$ è funzione deterministica di $y$ ($y=x$) $\Rightarrow I(x;y)=H(x)$
+
+
+
 
 
 
