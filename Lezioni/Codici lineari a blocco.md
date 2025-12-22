@@ -23,23 +23,23 @@ Un codice a blocco lineare $\mathcal C = \{\underline{c}_1,\dots,\underline{c}_n
 $|\mathcal C|=2^k$
 
 ### Matrice generatrice di un codice lineare a blocco
-È una matrice $\underline{\mathcal G}$ di dimensione $n$ x $k$, tale che $\underline{\mathcal G}$ ha rango $k$.
+È una matrice $\underline{G}$ di dimensione $n$ x $k$, tale che $\underline{G}$ ha rango $k$.
 
-Si ha che le word $\underline{c} = \underline{\mathcal G}\underline{b} \;\; \forall \underline{b}$ , con $\underline{b}$ sequenza lunga $k$ che viene codificata in $\underline{c} \Leftrightarrow \underline{c} \in \mathcal C$ 
+Si ha che le word $\underline{c} = \underline{G}\underline{b} \;\; \forall \underline{b}$ , con $\underline{b}$ sequenza lunga $k$ che viene codificata in $\underline{c} \Leftrightarrow \underline{c} \in \mathcal C$ 
 $\begin{bmatrix} c_1 \\ \vdots \\ c_n \end{bmatrix} = \underline{\mathcal G} \begin{bmatrix} c_1 \\ \vdots \\ b_k \end{bmatrix}$ 
 
 Ogni colonna di $\underline{\mathcal G}$ è una word.
 
-$\underline{\mathcal G}$  semplifica le operazioni di codifica:
+$\underline{G}$  semplifica le operazioni di codifica:
 - Se $\mathcal C$ non è lineare serve una tabella di $2^kn$ bit
 - Se $\mathcal C$ è lineare serve una tabella di $nk$ bit
 
 Matrice generatrice in forma sistematica: significa rappresentare il codice in modo tale che i bit di informazione compaiano esplicitamente e invariati all’interno della codeword, mentre i restanti bit sono bit di ridondanza calcolati come combinazioni lineari dei bit informativi.
 In particolare una matrice generatrice sistematica $k$ può essere riscritta come:
-$\underline{\mathcal G} = \underline{\mathcal I} | \underline{A}$ , dove:
+$\underline{G} = \underline{\mathcal I} | \underline{A}$ , dove:
 - $\underline{\mathcal I}$ è la matrice identità $k$ x $k$
 - $\underline{A}$ è la matrice $n-k$ x $k$
-Dunque sarà possibile riscrivere l'operazione $\underline{c} = \underline{\mathcal G}\underline{b} = [\underline{b}|\underline{b}\underline{A}]$. 
+Dunque sarà possibile riscrivere l'operazione $\underline{c} = \underline{ G}\underline{b} = [\underline{b}|\underline{b}\underline{A}]$. 
 
 ### Peso di Hamming
 Il peso di Hamming di una sequenza binaria è: $w_H(\underline{x}) = ||x||_H$
@@ -52,7 +52,7 @@ Per codici lineari a blocco la distanza minima del codice è limitata superiorme
 $d_{min} \leq n-k+1$
 
 $\Rightarrow w_H(l_i) \leq 1+(n-k)$ è il peso di ogni colonna della matice che si può riscrivere come:
-$\underline{\mathcal G} = [\dfrac{\underline{\mathcal I}}{A}]$ il peso di ogni colonna sarà dato dal numero di uno per colonna.
+$\underline{ G} = [\dfrac{\underline{\mathcal I}}{A}]$ il peso di ogni colonna sarà dato dal numero di uno per colonna.
 
 
 

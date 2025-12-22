@@ -2,7 +2,7 @@
 Viene definita come $\underline{\mathcal H}$ ed è il controllo parità per il codice $\mathcal C$ se soddisfa:
 $\underline{H}_\underline{\gamma} = 0 \Leftrightarrow \underline{\gamma} \in \mathcal C$ 
 
-In particolare se $\underline{\gamma} = \underline{\mathcal G} \underline{b}$ dunque $\underline{\mathcal G}\,\underline{\mathcal H} = 0$ e il rango di $\underline{\mathcal H}=n-k$ allora $\underline{\mathcal G}$ è [[Codici lineari a blocco#Matrice generatrice di un codice lineare a blocco|generatrice]] di della codice lineare $\mathcal C$ avrà come matrice parità $\underline{\mathcal H}$. 
+In particolare se $\underline{\gamma} = \underline{G} \underline{b}$ dunque $\underline{\mathcal G}\,\underline{\mathcal H} = 0$ e il rango di $\underline{\mathcal H}=n-k$ allora $\underline{\mathcal G}$ è [[Codici lineari a blocco#Matrice generatrice di un codice lineare a blocco|generatrice]] di della codice lineare $\mathcal C$ avrà come matrice parità $\underline{\mathcal H}$. 
 
 
 ### Decodifica con sindrome
