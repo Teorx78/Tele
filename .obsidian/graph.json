@@ -55,6 +55,13 @@
         "a": 1,
         "rgb": 8000461
       }
+    },
+    {
+      "query": "tag:#capacità_canale  ",
+      "color": {
+        "a": 1,
+        "rgb": 11621088
+      }
     }
   ],
   "collapse-display": true,
@@ -67,6 +74,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.8349513909991688,
+  "scale": 0.6658806830752869,
   "close": true
 }

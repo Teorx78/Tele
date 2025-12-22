@@ -25,8 +25,4 @@ Consiste nel tasso di informazione del canale massimo rispetto a tutte le statis
 
 $C=max_{p_\underline{x}(\underline{a})}R(\mathcal G)$
 
- 
-
-
-
-#informazione_e_entropia 
+#capacità_canale 

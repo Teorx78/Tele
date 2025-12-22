@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "ee138092df3ded9f",
+        "id": "a6d549be4b5b3694",
         "type": "tabs",
         "children": [
           {
-            "id": "f603aa782408807f",
+            "id": "d1b99ea14eebf0b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lezioni/Teoria dell'informazione.md",
+                "file": "Teorema di Shannon per la codifica di canale.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Teoria dell'informazione"
-            }
-          },
-          {
-            "id": "3510622c4fe6305d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lezioni/Entropia.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Entropia"
-            }
-          },
-          {
-            "id": "575bd46551863d4c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lezioni/Trasmissione di messaggi per la teoria dell'informazione.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Trasmissione di messaggi per la teoria dell'informazione"
+              "title": "Teorema di Shannon per la codifica di canale"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#modulazione",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -196,36 +168,35 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.5,
-    "collapsed": true
+    "width": 335.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "bases:Create new base": false
     }
   },
-  "active": "575bd46551863d4c",
+  "active": "d1b99ea14eebf0b5",
   "lastOpenFiles": [
-    "Lezioni/Codici lineari a blocco.md",
-    "Lezioni/Decodifica di codici lineari a blocco.md",
-    "Lezioni/Codifica di Canale.md",
-    "Lezioni/Hamming Codes.md",
-    "Lezioni/Criteri di Decodifica.md",
+    "Teorema di Shannon per la codifica di canale.md",
+    "Lezioni/Entropia.md",
     "Lezioni/Trasmissione di messaggi per la teoria dell'informazione.md",
     "Assets/Informazione_Entropia/Trasmissione.png",
-    "Assets/Informazione_Entropia/Trasmissione.pdf",
     "Assets/Informazione_Entropia",
-    "Lezioni/Entropia.md",
     "Lezioni/Teoria dell'informazione.md",
+    "Lezioni/Hamming Codes.md",
+    "Lezioni/Codici lineari a blocco.md",
+    "Lezioni/Criteri di Decodifica.md",
+    "Lezioni/Decodifica di codici lineari a blocco.md",
     "Lezioni/Rapporto segnale-rumore di Quantizzazione.md",
     "Lezioni/Pasted image 20251217141649.png",
+    "Lezioni/Codifica di Canale.md",
     "Assets/Codifica di Canale/Codifica_di_canale_Blocchi.png",
     "Assets/Codifica di Canale",
     "Lezioni/Quantizzazione.md",
@@ -258,6 +229,7 @@
     "Assets/Regioni di Decisione/4.png",
     "Assets/Regioni di Decisione/Regioni di Decisione.HEIC",
     "Assets/Regioni di Decisione",
-    "Assets/Altro/Regioni di Decisione.HEIC"
+    "Assets/Altro/Regioni di Decisione.HEIC",
+    "Assets/Altro"
   ]
 }

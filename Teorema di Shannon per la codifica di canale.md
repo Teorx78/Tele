@@ -1,0 +1,5 @@
+Consideriamo un canale $M_ario$ senza memoria e periodo di simbolo $T$, avente [[Trasmissione di messaggi per la teoria dell'informazione#Capacità di un canale|capacità]] $C$. Sia $\{b_l\}$ una sorgente di simboli con [[Trasmissione di messaggi per la teoria dell'informazione#Tasso di informazione del canale|tasso di informazione]] nominale $R=\frac{log_2M_s}{T_s}$ dove $M_s$ è la cardinalità dell'alfabeto della sorgente e $T_s$ è il periodo di simbolo della sorgente. 
+1) Se $R\leq C$ per ogni $\delta>0$  e ogni $n$ grande abbastanza, esistono:
+	- un codice di canale con parole lunghe $n$ e numero di parole $2^{nRT}$ 
+	- un decodificatore con probabilità di errore sulla parola inferiore a $\delta$
+2) Se $R>C$ esiste un $\delta>0$ tale che ogni codice a correzione d'errore per questa sorgente e questo canale ha probabilità di errore sulla parole di codice $\geq \delta$
