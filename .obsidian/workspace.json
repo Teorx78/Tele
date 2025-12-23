@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "a6d549be4b5b3694",
+        "id": "ee138092df3ded9f",
         "type": "tabs",
         "children": [
           {
-            "id": "c339dc8c2c76b4cd",
+            "id": "f91dab0340d6b916",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lezioni/Canale con ingresso Binario e Cancellazione.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Canale con ingresso Binario e Cancellazione"
-            }
-          },
-          {
-            "id": "23896bef311e297a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Codifica di sorgente.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Codifica di sorgente"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#modulazione",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "5136a22173a397bd",
@@ -182,67 +162,69 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.5
+    "width": 335.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "23896bef311e297a",
+  "active": "2df5421e20dae79d",
   "lastOpenFiles": [
-    "Lezioni/Canale con ingresso Binario e Cancellazione.md",
+    "Lezioni/Ripasso Probabilità.md",
+    "Lezioni/Regioni di Decisione.md",
+    "Lezioni/Realizzazione del ricevitore digitale.md",
+    "Lezioni/Codifica di Shannon.md",
+    "Lezioni/Hamming Codes.md",
     "Codifica di sorgente.md",
-    "Assets/Codifica di Sorgente/Schema_codifica_di_sorgente.png",
-    "Assets/Codifica di Sorgente",
-    "Assets/Nuova cartella",
+    "Lezioni/Codifica di Canale.md",
     "Lezioni/Trasmissione di messaggi per la teoria dell'informazione.md",
     "Lezioni/Teorema di Shannon per la codifica di canale.md",
-    "Lezioni/Rapporto Segnale-Rumore.md",
-    "Lezioni/Modulazione Binaria.md",
-    "Lezioni/Regioni di Decisione.md",
-    "Lezioni/Modulazioni Ortogonali e Biortogonali.md",
-    "Lezioni/Quadrature Amplitude Modulation.md",
-    "Lezioni/Modulazione M-arie.md",
-    "Lezioni/Demodulazione Digitale.md",
-    "Lezioni/Realizzazione del ricevitore digitale.md",
-    "Lezioni/Teorema dell'irrilevanza.md",
-    "Lezioni/Modulazione digitale.md",
-    "Lezioni/Criteri di Decodifica.md",
-    "Lezioni/Entropia.md",
-    "Assets/Informazione_Entropia/Trasmissione.png",
-    "Assets/Informazione_Entropia",
-    "Lezioni/Teoria dell'informazione.md",
-    "Lezioni/Hamming Codes.md",
+    "Lezioni/Canale con ingresso Binario e Cancellazione.md",
+    "Assets/Codifica di Sorgente/Schema_codifica_di_sorgente.png",
+    "Assets/Codifica di Sorgente",
     "Lezioni/Codici lineari a blocco.md",
     "Lezioni/Decodifica di codici lineari a blocco.md",
+    "Lezioni/Criteri di Decodifica.md",
+    "Assets/Informazione_Entropia/Trasmissione.png",
+    "Assets/Informazione_Entropia/Trasmissione.pdf",
+    "Assets/Informazione_Entropia",
+    "Lezioni/Entropia.md",
+    "Lezioni/Teoria dell'informazione.md",
     "Lezioni/Rapporto segnale-rumore di Quantizzazione.md",
     "Lezioni/Pasted image 20251217141649.png",
-    "Lezioni/Codifica di Canale.md",
     "Assets/Codifica di Canale/Codifica_di_canale_Blocchi.png",
     "Assets/Codifica di Canale",
     "Lezioni/Quantizzazione.md",
     "Lezioni/Quantizzatore uniforme.md",
+    "Lezioni/Rapporto Segnale-Rumore.md",
+    "Lezioni/Quadrature Amplitude Modulation.md",
     "Assets/Quantizzatore/quantizzatore_uniforme.png",
     "Assets/Quantizzatore",
     "Assets/Modulazione Digitale/mappatura_bitQAM.png",
     "Assets/Modulazione Digitale/QAM.png",
     "Assets/Modulazione Digitale",
+    "Lezioni/Modulazione Binaria.md",
+    "Lezioni/Modulazione digitale.md",
+    "Lezioni/Modulazione M-arie.md",
+    "Lezioni/Modulazioni Ortogonali e Biortogonali.md",
     "Lezioni/Ripasso Algebra con i Segnali.md",
+    "Lezioni/Segnali.md",
     "Assets/Canale/Cavo Elettrico.png",
     "Assets/Canale",
+    "Assets/Nuova cartella",
     "Assets/Segnali/impulso.png",
     "Untitled.canvas",
     "Assets/Regioni di Decisione/Probabilità di decisone corretta.png",
     "Assets/Regioni di Decisione/Regioni di Decisione.HEIC",
-    "Assets/Regioni di Decisione",
-    "Assets/Altro/Regioni di Decisione.HEIC"
+    "Assets/Regioni di Decisione"
   ]
 }
